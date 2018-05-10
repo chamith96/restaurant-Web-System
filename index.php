@@ -132,7 +132,7 @@ include "connect.inc.php";
                         <div class="main_slider text-center">
                             <div class="col-md-12">
                                 <div class="main_slider_content wow zoomIn" data-wow-duration="1s">
-                                    <h1>Foody Love</h1>
+                                    <h1>Tasty Foods</h1>
                                     <p>We Provide best foods for your tasty.You can select foods at home as you want.We delever it as soon as posible.It is your select your tasty.</p>
                                 </div>
                             </div>

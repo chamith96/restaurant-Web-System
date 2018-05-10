@@ -21,20 +21,24 @@
      <li><a href="addfood.php">Add Food</a></li>
    </ul>
    <ul class="nav navbar-nav navbar-right">
-     <li><a href="#"><span></span><?php
-                                         session_start();
-                                         if(isset($_SESSION['uname'])){
-                                         echo '<form action="signout.inc.php" method="POST">
-                                             <button type="submit" name="submit" id="button" >Sign out</button>
-                                             </form>
-                                             <style>#button{
-                                               background-color:#222222;
-                                               border: none;
-                                             }
-                                             </style>
-                                             ';
-                                             }
-                                     ?></a></li>
+     <li>
+      <a href="#"><span></span><?php
+        session_start();
+        if(isset($_SESSION['uname'])){
+          echo'
+          <form action="signout.inc.php" method="POST">
+          <button type="submit" name="submit" id="button" >Sign out</button>
+          </form>
+          <style>#button{
+          background-color:#222222;
+          border: none;
+          }
+          </style>
+          ';
+          }
+        ?>
+      </a>
+    </li>
    </ul>
  </div>
 </nav>
